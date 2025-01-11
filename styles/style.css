@@ -16,7 +16,7 @@
     width: 100%;
     height: 70vh;
     background-color: rgb(161, 219, 161);
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
     display:flex;
     justify-content: space-around;
@@ -41,6 +41,7 @@
     background-color: gainsboro;
     margin-top: 30px;
     padding: 20px;
+    border-radius: 10px;
 }
 .box{
     /* text-align: justify; */
@@ -98,7 +99,7 @@
 .box1{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin-top: 30px;
     box-shadow: 4px 4px 8px;
 background-color: white;
@@ -107,7 +108,7 @@ text-align: justify;
 .box2{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin-top: 30px;
     box-shadow: 4px 4px 8px;
 background-color: white;
@@ -147,6 +148,7 @@ text-align: justify;
     padding: 50px;
     margin-top: 30px;
     justify-content: center;
+    border-radius: 10px;
 }
 .card{
     /* height: 50px; */
@@ -197,4 +199,23 @@ text-align: justify;
     background-color:green;
     margin-top:10px;
     color:white
+}
+.sub{
+    background-color: rgb(160, 196, 160);
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.input-1 [type=text]{
+    height: 50px;
+    width: 800px;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    outline: none;
+    text-align: center;
+
 }
