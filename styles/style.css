@@ -22,11 +22,17 @@
     justify-content: space-around;
 
 }
+.banner content-left{
+    margin-right:30px;
+    align-content: center;
+
+}
 .connect{
     padding: 10px 15px;
     background-color: rgb(18, 69, 18);
     color: white;
     border-radius: 10px;
+    margin-top: 10px;
 }
 .banner-title{
     color: gray;
@@ -35,3 +41,51 @@
     width: 350px;
 
 }
+.future-container{
+    background-color: gainsboro;
+    margin-top: 30px;
+}
+.box{
+    text-align: justify;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.digital-box{
+    background-color: skyblue;
+}
+.green-box{
+    background-color:greenyellow;
+}
+.modern-box{
+    background-color: bisque;  
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 20px;
+}
+.learn-1{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    margin-top:10px;
+}
+.learn-2{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:green;
+    margin-top:10px;
+}
+.learn-3{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:burlywood;
+    margin-top:10px;
+}
+
