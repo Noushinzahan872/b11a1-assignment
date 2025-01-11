@@ -136,4 +136,56 @@ text-align: justify;
 
     margin:20px 20px 20px 20px;
 }
+.donate{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.card{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 8px 8px solid white;
+
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+.card-2{
+    background-color: greenyellow;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 8px solid white;
+
+
+}
+.card h3{
+    margin-bottom: 10px;
+    font-size: bold;
+}
+.input{
+    height: 50px;
+    width: 800px;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    outline: none;
+    
+}.btn{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:green;
+    margin-top:10px;
+    color:white
 }
